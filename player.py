@@ -17,7 +17,7 @@ class Player:
         self.__coin.toss()
 
     def get_coin_side(self):
-        return self.__coin.get_sideup()
+        return self.__coin.get_side()
     
     def win_coin(self):
         self.__wallet += 1
